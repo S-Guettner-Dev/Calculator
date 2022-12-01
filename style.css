@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+}
+
+#buttonContainer{
+    display:grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    column-gap: 1px;
+    row-gap: 1px;
+    width: 800px;
+    position:absolute;
+    top:30%;
+    left:30%
+}
+button{
+    width: 200px;
+    height: 100px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    padding:0px;
+    
+}
+#display{
+    background-color: rgb(255, 255, 255);
+
+    border: 3px solid;
+    border-color: rgb(175, 175, 175);
+    border-radius: 10px;
+    
+    width: 800px;
+    height: 150px;
+    position:absolute;
+    top:13%;
+    left:30%
+}
